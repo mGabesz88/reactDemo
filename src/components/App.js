@@ -3,7 +3,11 @@ import Movies from "./movies";
 
 class App extends Component {
   render() {
-    return <Movies />;
+    return (
+      <React.Fragment>
+        <Movies />
+      </React.Fragment>
+    );
   }
 }
 export default App;
