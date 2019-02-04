@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import Movie from "./movie";
+import Movies from "./movies";
 
 class App extends Component {
   render() {
-    return <Movie />;
+    return <Movies />;
   }
 }
 export default App;
