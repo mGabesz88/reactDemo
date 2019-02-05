@@ -4,9 +4,9 @@ import Movies from "./movies";
 class App extends Component {
   render() {
     return (
-      <React.Fragment>
+      <div class="container">
         <Movies />
-      </React.Fragment>
+      </div>
     );
   }
 }
